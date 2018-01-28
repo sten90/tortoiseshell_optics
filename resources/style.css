@@ -1,0 +1,148 @@
+/* VALUTARE SE E' IL CASO DI LASCIARE FLEX TUTTA LA SEZIONE HTML
+   SISTEMARE L'ALTEZZA DELLE IMMAGINI DEI SERIVIZI, DOVREBBERO AVERE PIU' SPAZIO TRA LORO
+*/
+
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/glasses-bg.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+}
+
+.menu {           /*  NEED TO BE CENTERED */
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+  width: 960px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.company_logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.company_logo span {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+header nav span {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.motto {
+  background-color: white;
+  color: black;
+  padding: 1.5rem 5rem;
+  width: 516px;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+
+/* Services */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  padding-top: 3rem;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  color: black;
+  align-items: center;
+}
+
+.service img {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* DEVO SISTEMARE L'ALTEZZA DEL FLEX CONTAINER DELLE IMMAGINI, DEVE ESSERCI PIU' SPAZIO TRA IMMAGINE E TESTO  */
+
+img #paper {
+  width: 3.5rem;
+}
+
+img #ruler {
+  width: 5rem;
+}
+
+img #truck {
+  width: 5rem;
+}
+
+/* General Information */
+.general_information {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-left: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.info p {
+  color: black;
+  padding-top: 1rem;
+}
+
+
+/* Footer */
+footer {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  display: flex;
+  color: black;
+  padding: 4rem 4rem;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
